@@ -12,5 +12,10 @@ class Sedan extends Vehicle implements Automobile {
     public void gas() {
         System.out.println("Sedan refueling");
     }
-
+    public void openTrunk() {
+        System.out.println("Sedan trunk is open");
+    }
+    public void playMusic() {
+        System.out.println("Sedan playing Music");
+    }
 }
